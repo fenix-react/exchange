@@ -1,0 +1,128 @@
+body {
+    transition: all .5s ease-out;
+
+}
+
+.dark {
+    /* background-color: #343a40; */
+    background-color: #090B18;
+}
+.nav {
+    background-color: #090B18;
+    height: 8vh;
+    width: 95vw;
+    transition: all 0.5s ease-out;
+} 
+.navWithSide {
+    background-color: #090B18;
+    height: 8vh;
+    width: 85vw;
+    transition: all .5s ease-out;
+}
+.light {
+  background-color: #f8f9fa;
+}
+.iconLight {
+    background-color: transparent;
+    border: none;
+    color: #f8f9fa;
+}
+.iconDark {
+    background-color: transparent;
+    border: none;
+    color: #343a40;
+}
+.iconDark:focus , .iconLight:focus ,.iconDarkB:focus , .iconLightB:focus {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.img {
+    width: 3vw;
+    margin-left: -0.4vw;
+    margin-top: -0.5vh;
+    
+}
+.iconLightB {
+    background-color: transparent;
+    border: none;
+    border-radius: 100vh;
+    overflow: hidden;
+    width: 3vw;
+    height: 6vh;
+    margin-left: 1vw;
+}
+.iconDarkB {
+    background-color: transparent;
+    border: none;
+    border-radius: 100vh;
+    overflow: hidden;
+    margin-left: 1vw;
+}
+.sidebarOpen {
+        position: fixed;
+        background-color: #090B18;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 14vw;
+        transition: all .5s ease-out;
+    }
+.sidebarClose {
+        position: absolute;
+        background-color:  #090B18;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 60px;
+        transition: all .5s ease-out;
+    }
+.sideNavFirst {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: start;
+    height: 6vh;
+    margin-top: 5vh;
+    cursor: pointer;
+    color: white;
+}
+.sideNavFirst:hover {
+    background-color: #1B1E31;
+    color: #01d8da
+}
+.sideNav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: start;
+    height: 6vh;
+    cursor: pointer;
+    margin-top: .5vh;
+    color: white;
+}
+.sideNav:hover {
+    background-color: #1B1E31;
+    color: #01d8da
+}
+.sideArrow {
+    margin-right: -1vw;
+    margin-top: 2vh;
+    font-size: 2.5vh;
+}
+.userLinks {
+    text-decoration: none;
+    color: white;
+    font-size: 2vh;
+    margin-top: 1vw;
+    margin-right: 4vw;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+.animate {
+    animation: fadeIn 2s;
+}

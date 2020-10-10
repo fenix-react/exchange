@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'iransans';
+  src: local('iransans'), url(./assets/fonts/iransans.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'iransans';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #41444b;
+  padding: 0;
+}
+
+/* div + span {
+  display: none !important
+} */
+
+ .btn-white {
+   color: white !important
+ }
+
+ .input-field label {
+   color: #41444b;
+ }
+
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #fddb3a;
+  }
+
+  .input-field input[type=email]:focus {
+    border-bottom: 1px solid #fddb3a !important;
+    box-shadow: 0 1px 0 0 #fddb3a !important;
+  }
+  .input-field input[type=password]:focus {
+    border-bottom: 1px solid #fddb3a !important;
+    box-shadow: 0 1px 0 0 #fddb3a !important;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

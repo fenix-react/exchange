@@ -1,0 +1,66 @@
+.page {
+    background-color: white;
+}
+.container {
+    width: 90vw;
+    height: 70vh;
+    margin-top: 15vh;
+    margin-left: 5vw;
+    border-radius: 2vh;
+    overflow: hidden;
+}
+.register {
+    background-color: #0a0b18;
+}
+.form {
+    margin-top: 8vh;
+    color: white
+}
+.iconCont {
+    background-color: #181924 ;
+    border: none;
+    outline: none;
+    color: rgba(225, 225, 225, 0.5);
+}
+.input {
+    background-color:  rgba(225, 225, 225, 0.1);
+    border: none;
+    width: 5vw;
+}
+.input:focus {
+    background-color: #ebedef;
+}
+.bazyabi {
+    font-size: 1.4vh;
+    margin-left: -3vw;
+    background-color: transparent;
+    margin-top: -1vh;
+    border: none;
+    outline: none;
+}
+.bazyabi:hover {
+    font-size: 1.4vh;
+    margin-left: -3vw;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: red
+}
+.bazyabi:active {
+    font-size: 1.4vh;
+    margin-left: -3vw;
+    background-color: transparent !important;
+    border: none;
+    outline: none;
+    color: red
+}
+.vorood {
+    font-size: 1.8vh;
+    background-color: whitesmoke;
+    color: #0a0b18
+}
+.vorood2 {
+    font-size: 1.8vh;
+    background-color: #dddddd;
+    color: #0a0b18
+}
